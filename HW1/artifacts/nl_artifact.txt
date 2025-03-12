@@ -1,0 +1,62 @@
+1:
+run:
+echo "just a line" | python3 src/1_nl.py >>artifacts/nl_artifact.txt
+
+output:
+     1	just a line
+
+2:
+run:
+python3 src/1_nl.py data/test_file1.txt >>artifacts/nl_artifact.txt
+
+output:
+     1	line1 word
+     2	line2 word
+     3	line3 word
+     4	line4 word
+     5	line5 word
+     6	line6 word
+     7	line7 word
+     8	line8 word
+     9	line9 word
+    10	line10 word
+    11	line11 word
+    12	line12 word
+
+3:
+run:
+python3 src/1_nl.py data/test_file2.txt >>artifacts/nl_artifact.txt
+
+output:
+     1	line1 word
+     2	line2 word
+     3	line3 word
+     4	line4 word
+     5	line5 word
+     6	line6 word
+     7	line7 word
+     8	line8 word
+     9	line9 word
+    10	line10 word
+    11	line11 word
+    12	line12 word
+    13	
+    14	line14 word
+
+4:
+run:
+python3 src/1_nl.py data/test_file3.txt >>artifacts/nl_artifact.txt
+
+output:
+     1	word1 word2 word3
+     2	word4 word5
+     3	word6
+
+5:
+run:
+python3 src/1_nl.py data/test_file4.txt >>artifacts/nl_artifact.txt
+
+output:
+     1	word1 word2 word3 word4
+     2	
+     3	word5
