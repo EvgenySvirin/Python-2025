@@ -1,0 +1,40 @@
+1:
+run:
+echo "" | python3 src/2_tail.py >>artifacts/wc_artifact.txt
+
+output:
+2 2 12
+
+2:
+run:
+printf "hello\nworld\n" | python3 src/3_wc.py >>wc_artifact.txt
+
+output:
+2 2 12
+
+3:
+run:
+python3 src/3_wc.py data/test_file5.txt >>artifacts/wc_artifact.txt
+
+output:
+17 18 44 data/test_file5.txt
+
+4:
+run:
+python3 src/3_wc.py data/test_file3.txt data/test_file4.txt >>artifacts/wc_artifact.txt
+
+output:
+2 6 35 data/test_file3.txt
+2 5 30 data/test_file4.txt
+4 11 65 total
+
+5:
+run:
+python3 src/3_wc.py data/test_file3.txt data/test_file4.txt data/test_file5.txt data/test_file3.txt >>artifacts/wc_artifact.txt
+
+output:
+2 6 35 data/test_file3.txt
+2 5 30 data/test_file4.txt
+17 18 44 data/test_file5.txt
+2 6 35 data/test_file3.txt
+23 35 144 total

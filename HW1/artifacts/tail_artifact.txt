@@ -1,0 +1,74 @@
+1:
+run:
+echo "" | python3 src/2_tail.py >>artifacts/tail_artifact.txt
+
+output:
+
+2:
+run:
+echo "just a line" | python3 src/2_tail.py >>artifacts/tail_artifact.txt
+
+output:
+just a line
+
+3:
+run:
+python3 src/2_tail.py data/test_file1.txt >>artifacts/tail_artifact.txt
+
+output:
+line3 word
+line4 word
+line5 word
+line6 word
+line7 word
+line8 word
+line9 word
+line10 word
+line11 word
+line12 word
+
+4:
+run:
+python3 src/2_tail.py data/test_file5.txt >>artifacts/tail_artifact.txt
+
+output:
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
+5:
+run:
+python3 src/2_tail.py data/test_file6.txt >>artifacts/tail_artifact.txt
+
+output:
+
+12 aaaaa
+
+14
+
+
+
+
+
+20
+
+6:
+run:
+python3 src/2_tail.py data/test_file3.txt data/test_file4.txt >>artifacts/tail_artifact.txt
+
+output:
+===> data/test_file3.txt <===
+word1 word2 word3
+word4 word5
+word6
+===> data/test_file4.txt <===
+word1 word2 word3 word4
+
+word5
