@@ -1,6 +1,4 @@
-В контейнер скопипастить main.py (или по-нормальному через pull)
-
 ```
-mv main.py home/main.py
-python3 home/main.py
+sudo docker build . -t python2025
+sudo docker run -it python2025
 ```
