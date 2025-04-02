@@ -1,18 +1,23 @@
-aaaaa
-2025-04-03 00:37:20.483392: Main process got stdin input: aaaaa
-2025-04-03 00:37:20.485057: Main process got encoded message: nnnnn
-bbbbb
-2025-04-03 00:37:22.720695: Main process got stdin input: bbbbb
+python3 ./main.py
+AAA
+2025-04-03 00:57:09.808623: Main process got stdin input: AAA
+2025-04-03 00:57:09.810500: Main process got encoded message: nnn
+aaa
+2025-04-03 00:57:11.242847: Main process got stdin input: aaa
+2025-04-03 00:57:14.813980: Main process got encoded message: nnn
+have
+2025-04-03 00:57:16.135263: Main process got stdin input: have
+a nice
+2025-04-03 00:57:18.700549: Main process got stdin input: a nice
+day
+2025-04-03 00:57:19.422485: Main process got stdin input: day
+2025-04-03 00:57:19.819195: Main process got encoded message: unir
+2025-04-03 00:57:24.824288: Main process got encoded message: n avpr
+2025-04-03 00:57:29.828985: Main process got encoded message: qnl
 
-2025-04-03 00:37:23.280185: Main process got stdin input:
+2025-04-03 00:57:31.792608: Main process got stdin input:
+2025-04-03 00:57:34.833976: Main process got encoded message:
 
-2025-04-03 00:37:23.726104: Main process got stdin input:
-2025-04-03 00:37:25.489523: Main process got encoded message: ooooo
-2025-04-03 00:37:30.494093: Main process got encoded message:
-2025-04-03 00:37:35.498969: Main process got encoded message:
-have a nice day
-2025-04-03 00:37:55.827149: Main process got stdin input: have a nice day
-2025-04-03 00:37:55.827504: Main process got encoded message: unir n avpr qnl
+2025-04-03 00:57:34.955683: Main process got stdin input:
+2025-04-03 00:57:39.839060: Main process got encoded message:
 quit
-
-Process finished with exit code 0
