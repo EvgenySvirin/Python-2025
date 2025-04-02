@@ -1,0 +1,4 @@
+n equals 30 
+Synchronous bench, 10 times: 1.035233 sec
+Multithreading bench, 10 threads: 1.115322 sec
+Multiprocessing bench, 10 processes : 0.176223 sec

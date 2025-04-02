@@ -1,0 +1,18 @@
+aaaaa
+2025-04-03 00:37:20.483392: Main process got stdin input: aaaaa
+2025-04-03 00:37:20.485057: Main process got encoded message: nnnnn
+bbbbb
+2025-04-03 00:37:22.720695: Main process got stdin input: bbbbb
+
+2025-04-03 00:37:23.280185: Main process got stdin input:
+
+2025-04-03 00:37:23.726104: Main process got stdin input:
+2025-04-03 00:37:25.489523: Main process got encoded message: ooooo
+2025-04-03 00:37:30.494093: Main process got encoded message:
+2025-04-03 00:37:35.498969: Main process got encoded message:
+have a nice day
+2025-04-03 00:37:55.827149: Main process got stdin input: have a nice day
+2025-04-03 00:37:55.827504: Main process got encoded message: unir n avpr qnl
+quit
+
+Process finished with exit code 0
